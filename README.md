@@ -1,10 +1,19 @@
 # GENIE-on-hpc
+srun --partition=icecube_gpu --gres=gpu:1 --mem=5G --cpus-per-task=4 --time=03:00:00 --ntasks=1 --pty bash
+
+
 (base) [jackp@node161 ~]$ module load astro
+
 (base) [jackp@node161 ~]$ module load cuda/12.4
+
 (base) [jackp@node161 ~]$ module load hdf5/intel/1.10.4
+
 (base) [jackp@node161 ~]$ module load intel/20.0.4
+
 (base) [jackp@node161 ~]$ conda activate myenv
+
 (myenv) [jackp@node161 ~]$ 
+
 (myenv) [jackp@node161 ~]$ source ~/genie_setup.sh
 
 
