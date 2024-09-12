@@ -65,3 +65,12 @@ source build_pythia6.sh 6412
 cd /groups/icecube/jackp
 git clone https://github.com/root-project/root.git
 cd root
+
+
+
+# Commands:
+to useful file to prometheus:
+obviosuly replace root with file:
+
+gntpc -i gntp_99_100_events_20240911_192155.ghep.root -f rootracker -o 100_events.gtrac.root
+
