@@ -4,7 +4,7 @@ srun --partition=icecube_gpu --gres=gpu:1 --mem=5G --cpus-per-task=4 --time=03:0
 
 (base) [jackp@node161 ~]$ module load astro
 
-(base) [jackp@node161 ~]$ module load cuda/12.4
+(base) [jackp@node161 ~]$ module load cuda/12.4 
 
 (base) [jackp@node161 ~]$ module load hdf5/intel/1.10.4
 
