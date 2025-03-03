@@ -1,4 +1,4 @@
-# GENIE-on-hpc
+# sajd dsao o ndsa GENIE-on-hpc
 srun --partition=icecube_gpu --gres=gpu:1 --mem=5G --cpus-per-task=4 --time=03:00:00 --ntasks=1 --pty bash
 
 
